@@ -1,0 +1,51 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Large/raw data artifacts
+extracted_frames/
+*.mp4
+*.avi
+*.mov
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+
+#tau-class
+*.cls
+*.sty
+*.tex
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.xdv
+
+# Generated PDFs (keep source only)
+*.pdf
+
+# Keep report image assets tracked
+!report/images/
+!report/images/**
